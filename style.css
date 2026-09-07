@@ -45,6 +45,8 @@ p {
   grid-template-columns: 1fr 0.9fr;
   gap: 60px;
   align-items: center;
+  border: 3px solid var(--black);
+box-shadow: 6px 6px 0 var(--black);
 }
 
 .hero-content {
