@@ -122,21 +122,13 @@ p {
   margin: auto;
 }
 
-.section-heading {
-  margin-bottom: 55px;
-}
-
-.section-number {
-  color: var(--green);
-  font-size: 14px;
-  font-weight: 800;
-  margin-bottom: 10px;
-}
-
 .section-heading h2 {
-  font-size: clamp(42px, 6vw, 82px);
-  line-height: 0.9;
-  text-transform: uppercase;
+  display: inline-block;
+  background: var(--green);
+  color: white;
+  padding: 14px 22px;
+  border: 2px solid var(--black);
+  box-shadow: 5px 5px 0 var(--black);
 }
 
 .section-description {
