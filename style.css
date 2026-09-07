@@ -40,14 +40,16 @@ p {
   min-height: 55vh;
   background: var(--green);
   color: white;
-  padding: 70px 7vw;
+  padding: 45px 5vw;
   display: grid;
   grid-template-columns: 1fr 0.9fr;
   gap: 60px;
   align-items: center;
-  border: 3px solid var(--black);
-box-shadow: 6px 6px 0 var(--black);
+
+  border: 2px solid var(--black);
+  box-shadow: 7px 7px 0 var(--black);
 }
+
 
 .hero-content {
   max-width: 720px;
