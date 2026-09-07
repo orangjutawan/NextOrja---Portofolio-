@@ -49,7 +49,13 @@ p {
   border: 2px solid var(--black);
   box-shadow: 7px 7px 0 var(--black);
 }
-
+.hero-panel {
+    background: var(--cream);
+    color: var(--black);
+    border: 2px solid var(--black);
+    box-shadow: 7px 7px 0 var(--black);
+    padding: 50px;
+}
 
 .hero-content {
   max-width: 720px;
