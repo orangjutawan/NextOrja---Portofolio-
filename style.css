@@ -40,10 +40,10 @@ p {
   &::before {
     content: "";
     position: absolute;
-    top: 60px;
+    top: 65px;
 left: 30px;
 right: 30px;
-bottom: 60px;
+bottom: 65px;
     background: var(--cream);
     border: 2px solid var(--black);
     box-shadow: 6px 6px 0 var(--black);
