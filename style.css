@@ -37,7 +37,7 @@ p {
 }
 
 .hero {
-  min-height: 85vh;
+  min-height: 65vh;
   background: var(--green);
   color: white;
   padding: 70px 7vw;
