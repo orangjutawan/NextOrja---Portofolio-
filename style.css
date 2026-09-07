@@ -129,6 +129,9 @@ p {
   padding: 14px 22px;
   border: 2px solid var(--black);
   box-shadow: 5px 5px 0 var(--black);
+  font-size: clamp(42px, 6vw, 82px);
+line-height: 0.9;
+text-transform: uppercase;
 }
 
 .section-description {
