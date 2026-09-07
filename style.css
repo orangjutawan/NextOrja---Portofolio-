@@ -173,7 +173,9 @@ text-transform: uppercase;
 .research-category {
   margin-bottom: 90px;
 }
-
+.section-heading + .research-category {
+    margin-top: 35px;
+}
 .category-title {
   display: flex;
   align-items: center;
