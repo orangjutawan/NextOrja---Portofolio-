@@ -148,35 +148,32 @@ p {
 .skill-list {
   border-top: 1px solid var(--border);
 }
-
 .skill-card {
-  min-height: 125px;
-  padding: 28px 20px;
-  border-bottom: 1px solid var(--border);
+  height: 82px;
+  padding: 18px 20px;
+  border: 1.5px solid var(--black);
+  background: var(--white);
   display: flex;
   align-items: center;
-  gap: 25px;
-  transition: 0.2s ease;
-}
-
-.skill-card:hover {
-  background: var(--green);
-  color: white;
+  gap: 20px;
+  box-shadow: 5px 5px 0 var(--black);
+  margin-bottom: 14px;
 }
 
 .skill-card span {
+  width: 28px;
+  flex-shrink: 0;
   color: var(--green);
   font-size: 13px;
   font-weight: 800;
 }
 
-.skill-card:hover span {
-  color: white;
+.skill-card h3 {
+  font-size: 20px;
+  line-height: 1.2;
 }
 
-.skill-card h3 {
-  font-size: 23px;
-}
+
 
 .research-category {
   margin-bottom: 90px;
