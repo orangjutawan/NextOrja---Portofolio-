@@ -499,12 +499,19 @@ footer p {
     order: -1;
   }
 
-  .card-grid,
-  .project-grid,
-  .post-grid,
-  .role-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+ .card-grid,
+.project-grid,
+.post-grid,
+.role-grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.education-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contribution-grid {
+  grid-template-columns: repeat(2, 1fr);
 }
 
 @media (max-width: 600px) {
