@@ -116,8 +116,8 @@ border-color: var(--black);
 }
 
 .hero-tags {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+flex-wrap: wrap;
   gap: 10px;
   width: 100%;
   margin-top: 20px;
