@@ -93,7 +93,6 @@ box-shadow: 6px 6px 0 var(--green);
     line-height: 0.85;
     margin-bottom: 30px;
     color: var(--green);
-  text-shadow: 3px 3px 0 var(--black);
 transform: translateZ(0);
 filter: drop-shadow(5px 5px 0 var(--green));
 }
