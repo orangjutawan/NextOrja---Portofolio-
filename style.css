@@ -46,7 +46,7 @@ right: 30px;
 bottom: 300px;
     background: var(--cream);
     border: 2px solid var(--green);
-box-shadow: 6px 6px 0 var(--green);
+box-shadow: 8px 8px 0 var(--black);
     z-index: 0;
   }
   position: relative;
