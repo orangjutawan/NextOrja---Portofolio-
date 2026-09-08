@@ -97,6 +97,7 @@ bottom: 200px;
 
 .hero h1 span {
     color: var(--black);
+border-color: var(--black);
 }
 
 .hero h2 {
