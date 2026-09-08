@@ -116,13 +116,13 @@ border-color: var(--black);
 }
 
 .hero-tags {
-  display: flex;
-flex-wrap: wrap;
-  gap: 10px;
-  width: 100%;
-  margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: calc(100% + 60px);
+    margin-top: 20px;
 }
-
+hero
 .hero-tags span {
   display: flex;
   align-items: center;
