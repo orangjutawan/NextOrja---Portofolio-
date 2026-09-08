@@ -117,14 +117,11 @@ border-color: var(--black);
 }
 
 .hero-tags {
-    grid-column: 1 / -1;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     width: 100%;
-    margin-top: 0;
-    position: relative;
-    z-index: 2;
+    margin-top: 20px;
 }
 hero
 .hero-tags span {
