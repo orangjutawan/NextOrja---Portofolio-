@@ -94,15 +94,15 @@ font-weight: 900;
   line-height: 0.95;
   letter-spacing: 0.02em;
   margin-bottom: 30px;
-  color: var(--green);
-  text-shadow: 4px 4px 0 var(--black);
+  color: var(--black);
+text-shadow: 4px 4px 0 var(--green);
   transform: translateZ(0);
 }
 
 .hero h1 span {
-  color: var(--white);
-  margin-left: 0.08em;
-  text-shadow: 4px 4px 0 var(--black);
+    color: var(--black);
+    margin-left: 0.08em;
+    text-shadow: 4px 4px 0 var(--green);
 }
 
 .hero h2 {
