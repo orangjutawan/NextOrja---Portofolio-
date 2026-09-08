@@ -50,7 +50,7 @@ box-shadow: 6px 6px 0 var(--green);
     z-index: 0;
   }
   position: relative;
-  min-height: 55vh;
+  min-height: 65vh;
   background: var(--green);
   color: white;
   padding: 45px 5vw;
