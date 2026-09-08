@@ -385,10 +385,17 @@ text-transform: uppercase;
   margin-bottom: 35px;
 }
 
-.project-card p,
-.post-card p,
-.role-card p {
-  margin-bottom: 15px;
+.content-card,
+.project-card,
+.post-card,
+.role-card {
+  background: var(--white);
+  border: 2px solid var(--green);
+  padding: 28px;
+  min-height: 230px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 4px 0 var(--green);
 }
 
 .project-card span:last-child {
