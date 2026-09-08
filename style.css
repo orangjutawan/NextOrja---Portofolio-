@@ -120,15 +120,20 @@ text-shadow: 4px 4px 0 var(--green);
   margin-bottom: 30px;
 }
 .hire-button {
-  display: inline-block;
-  margin-top: 5px;
-  padding: 12px 24px;
-  background: var(--green);
-  color: var(--white);
-  border: 2px solid var(--black);
-  box-shadow: 4px 4px 0 var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 48px;
+  padding: 10px 8px;
+  background: var(--white);
+  color: var(--black);
+  border: 2px solid var(--green);
+  box-shadow: 3px 3px 0 var(--green);
   text-decoration: none;
-  font-weight: 800;
+  font-size: 13px;
+  font-weight: 600;
 }
 .hero-tags {
   display: grid;
