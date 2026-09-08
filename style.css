@@ -89,13 +89,14 @@ bottom: 200px;
 }
 
 .hero h1 {
-  font-size: clamp(70px, 11vw, 150px);
-  line-height: 0.85;
-  margin-bottom: 30px;
+    font-size: clamp(70px, 11vw, 150px);
+    line-height: 0.85;
+    margin-bottom: 30px;
+    color: var(--green);
 }
 
 .hero h1 span {
-  color: var(--green);
+    color: var(--black);
 }
 
 .hero h2 {
