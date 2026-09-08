@@ -493,7 +493,7 @@ footer p {
 @media (max-width: 600px) {
   .hero {
     min-height: auto;
-    padding: 35px 25px 45px;
+    padding: 20px 25px 30px;
     gap: 35px;
   }
 
