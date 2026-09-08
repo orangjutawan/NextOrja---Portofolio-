@@ -116,10 +116,10 @@ border-color: var(--black);
 }
 
 .hero-tags {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    width: calc(100% + 60px);
+    width: 100%;
     margin-top: 20px;
 }
 hero
