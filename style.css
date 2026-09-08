@@ -98,7 +98,7 @@ box-shadow: 6px 6px 0 var(--green);
 }
 
 .hero h1 span {
-  color: var(--green);
+  color: var(--black);
   margin-left: 0.08em;
   text-shadow: 4px 4px 0 var(--black);
 }
