@@ -49,21 +49,21 @@ bottom: 30px;
 box-shadow: 6px 6px 0 var(--green);
     z-index: 0;
   }
-  position: relative;
-  min-height: 55vh;
-  background: var(--green);
-  color: white;
-  padding: 45px 5vw;
-  display: grid;
-  grid-template-columns: 1fr 0.9fr;
-  grid-template-rows: auto auto;
-  gap: 60px;
-  align-items: center;
+  .hero {
+    position: relative;
+    min-height: 55vh;
+    background: var(--green);
+    color: white;
+    padding: 45px 5vw;
 
-  border: 2px solid var(--black);
-  box-shadow: 7px 7px 0 var(--black);
-  
-}
+    display: grid;
+    grid-template-columns: 1fr 0.9fr;
+    gap: 60px;
+    align-items: center;
+
+    border: 2px solid var(--black);
+    box-shadow: 7px 7px 0 var(--black);
+  }
 .hero-content,
 .hero-image {
     position: relative;
