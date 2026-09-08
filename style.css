@@ -87,19 +87,18 @@ box-shadow: 6px 6px 0 var(--green);
   color: var(--black);
   margin-bottom: 24px;
 }
-
 .hero h1 {
-    font-size: clamp(70px, 11vw, 150px);
-    line-height: 0.85;
-    margin-bottom: 30px;
-    color: var(--green);
-transform: translateZ(0);
-filter: drop-shadow(5px 5px 0 var(--green));
+  font-size: clamp(70px, 11vw, 150px);
+  line-height: 0.85;
+  margin-bottom: 30px;
+  color: var(--green);
+  transform: translateZ(0);
+  text-shadow: 4px 4px 0 var(--black);
 }
 
 .hero h1 span {
-    color: var(--black);
-border-color: var(--black);
+  color: var(--black);
+  text-shadow: 4px 4px 0 var(--green);
 }
 
 .hero h2 {
