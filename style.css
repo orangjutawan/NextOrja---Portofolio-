@@ -103,11 +103,12 @@ bottom: 200px;
   font-size: clamp(28px, 4vw, 54px);
   line-height: 1;
   margin-bottom: 24px;
+  color: var(--black);
 }
 
 .hero-description {
   max-width: 600px;
-  color: white;
+  color: var(--black);
   font-size: 19px;
   line-height: 1.6;
   margin-bottom: 30px;
