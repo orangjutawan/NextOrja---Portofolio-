@@ -88,7 +88,7 @@ box-shadow: 6px 6px 0 var(--green);
   margin-bottom: 24px;
 }
 .hero h1 {
-  font-family: "Arial Black", Arial, sans-serif;
+  font-family: Impact, "Arial Narrow", Arial, sans-serif;
 font-weight: 900;
   font-size: clamp(70px, 11vw, 150px);
   line-height: 0.95;
