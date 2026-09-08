@@ -578,3 +578,40 @@ footer p {
   border: 2px solid var(--green);
   padding: 20px 0;
 }
+/* FIX SECTIONS */
+.section {
+  width: 100%;
+  padding: 80px 5vw;
+  box-sizing: border-box;
+}
+
+.card-grid,
+.education-grid,
+.project-grid,
+.post-grid,
+.role-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  width: 100%;
+}
+
+.content-card,
+.project-card,
+.post-card,
+.role-card,
+.skill-card {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 800px) {
+  .card-grid,
+  .education-grid,
+  .project-grid,
+  .post-grid,
+  .role-grid {
+    grid-template-columns: 1fr;
+  }
+}
