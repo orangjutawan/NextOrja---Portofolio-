@@ -49,21 +49,20 @@ bottom: 200px;
 box-shadow: 6px 6px 0 var(--green);
     z-index: 0;
   }
-  .hero {
-    position: relative;
-    min-height: 55vh;
-    background: var(--green);
-    color: white;
-    padding: 45px 5vw;
+  position: relative;
+  min-height: 55vh;
+  background: var(--green);
+  color: white;
+  padding: 45px 5vw;
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  gap: 60px;
+  align-items: center;
 
-    display: grid;
-    grid-template-columns: 1fr 0.9fr;
-    gap: 60px;
-    align-items: center;
-
-    border: 2px solid var(--black);
-    box-shadow: 7px 7px 0 var(--black);
-  }
+  border: 2px solid var(--black);
+  box-shadow: 7px 7px 0 var(--black);
+  
+}
 .hero-content,
 .hero-image {
     position: relative;
@@ -117,13 +116,14 @@ border-color: var(--black);
 }
 
 .hero-tags {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    width: 100%;
-    margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 100%;
+  grid-column: 1 / -1;
+  margin-top: 20px;
 }
-hero
+
 .hero-tags span {
   display: flex;
   align-items: center;
@@ -577,41 +577,4 @@ footer p {
   background: var(--white);
   border: 2px solid var(--green);
   padding: 20px 0;
-}
-/* FIX SECTIONS */
-.section {
-  width: 100%;
-  padding: 80px 5vw;
-  box-sizing: border-box;
-}
-
-.card-grid,
-.education-grid,
-.project-grid,
-.post-grid,
-.role-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
-  width: 100%;
-}
-
-.content-card,
-.project-card,
-.post-card,
-.role-card,
-.skill-card {
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-@media (max-width: 800px) {
-  .card-grid,
-  .education-grid,
-  .project-grid,
-  .post-grid,
-  .role-grid {
-    grid-template-columns: 1fr;
-  }
 }
