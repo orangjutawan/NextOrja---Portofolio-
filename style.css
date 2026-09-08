@@ -120,6 +120,8 @@ border-color: var(--black);
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   width: 100%;
+  grid-column: 1 / -1;
+  margin-top: 20px;
 }
 
 .hero-tags span {
@@ -128,12 +130,15 @@ border-color: var(--black);
   justify-content: center;
   text-align: center;
   box-sizing: border-box;
-  width: 100%;
+  min-height: 48px;
   border: 2px solid var(--green);
-  padding: 10px 8px;
+  padding: 8px 10px;
   color: var(--black);
   background: var(--white);
   box-shadow: 3px 3px 0 var(--green);
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: 600;
 }
 
 .hero-image {
