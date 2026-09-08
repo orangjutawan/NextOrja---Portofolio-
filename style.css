@@ -116,19 +116,24 @@ border-color: var(--black);
 }
 
 .hero-tags {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+  width: 100%;
 }
 
 .hero-tags span {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  width: 100%;
   border: 2px solid var(--green);
-  padding: 10px 14px;
+  padding: 10px 8px;
   color: var(--black);
   background: var(--white);
   box-shadow: 3px 3px 0 var(--green);
-  margin: 4px;
 }
 
 .hero-image {
