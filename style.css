@@ -572,4 +572,9 @@ footer p {
   .category-title h3 {
     font-size: 19px;
   }
-  }
+  
+.project-community-area {
+  background: var(--white);
+  border: 2px solid var(--green);
+  padding: 20px 0;
+}
