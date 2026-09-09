@@ -598,3 +598,61 @@ footer p {
   border: 2px solid var(--green);
   padding: 20px 0;
 }
+.research-category-posts {
+  margin-top: 24px;
+}
+
+.research-posts {
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.research-posts.active {
+  display: grid;
+}
+
+.research-toggle {
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.research-toggle:hover {
+  border-color: var(--green);
+  transform: translateY(-2px);
+}
+
+.research-post-card {
+  background: var(--white);
+  border: 2px solid var(--black);
+  padding: 25px;
+  min-height: 180px;
+  box-shadow: 5px 5px 0 var(--green);
+}
+
+.research-post-card .card-label {
+  margin-bottom: 18px;
+}
+
+.research-post-card h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.research-post-card p {
+  color: var(--muted);
+}
+
+.research-post-card a {
+  display: inline-block;
+  margin-top: 20px;
+  color: var(--green);
+  font-weight: 800;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .research-posts {
+    grid-template-columns: 1fr;
+  }
+}
