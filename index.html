@@ -198,50 +198,50 @@
 
         <article class="content-card research-toggle" data-target="overview-posts">
 
-<p class="card-label">PROJECT OVERVIEW</p>
+          <p class="card-label">PROJECT ANALYSIS</p>
 
-<div class="research-proof">
-  <img src="..." alt="Project Overview post">
-</div>
+          <h3>Project Overview</h3>
 
-<a class="research-post-link" href="#">VIEW POST ON X ↗</a>
+          <p>
+            Research into a project's concept, products, ecosystem,
+            development, and overall positioning.
+          </p>
+
         </article>
 
 
         <article class="content-card research-toggle" data-target="ecosystem-posts">
 
-          <p class="card-label">ECOSYSTEM RESEARCH</p>
+          <p class="card-label">ECOSYSTEM</p>
 
-<div class="research-proof">
-  <img src="NAMA-GAMBAR" alt="Ecosystem Research post">
-</div>
+          <h3>Ecosystem Research</h3>
 
-<a class="research-post-link" href="LINK-X">VIEW POST ON X ↗</a>
+          <p>
+            Exploring the project's ecosystem, users, applications,
+            partners, and broader Web3 environment.
+          </p>
 
         </article>
 
 
         <article class="content-card research-toggle" data-target="fundamentals-posts">
-          <p class="card-label">PROJECT FUNDAMENTALS</p>
+          <p class="card-label">FUNDAMENTALS</p>
 
-<div class="research-proof">
-  <img src="NAMA-GAMBAR" alt="Project Fundamentals post">
-</div>
+          <h3>Project Fundamentals</h3>
 
-<a class="research-post-link" href="LINK-X">VIEW POST ON X ↗</a>
+          <p>
+            Breaking down important project fundamentals to understand
+            how the protocol and its products work.
+          </p>
 
         </article>
 
       </div>
 
     </div>
-</div>
 
-<div class="research-category-posts">
-  ...
-</div>
 
-<!-- ON-CHAIN RESEARCH -->
+    <!-- ON-CHAIN RESEARCH -->
 
     <div class="research-category">
 
@@ -255,46 +255,45 @@
 
         <article class="content-card research-toggle" data-target="onchain-posts">
 
-          <p class="card-label">ON-CHAIN ACTIVITY</p>
+          <p class="card-label">ON-CHAIN</p>
 
-<div class="research-proof">
-  <img src="NAMA-GAMBAR" alt="On-chain Activity post">
-</div>
+          <h3>On-chain Activity</h3>
 
-<a class="research-post-link" href="LINK-X">VIEW POST ON X ↗</a>
+          <p>
+            Looking at blockchain activity and transaction data to
+            understand network usage and user behavior.
+          </p>
 
         </article>
 
 
         <article class="content-card research-toggle" data-target="market-posts">
 
-          <p class="card-label">MARKET RESEARCH</p>
+          <p class="card-label">MARKET DATA</p>
 
-<div class="research-proof">
-  <img src="NAMA-GAMBAR" alt="Market Research post">
-</div>
+          <h3>Market Research</h3>
 
-<a class="research-post-link" href="LINK-X">VIEW POST ON X ↗</a>
+          <p>
+            Reviewing market and trading data to identify relevant
+            trends and project activity.
+          </p>
 
         </article>
 
 
         <article class="content-card research-toggle" data-target="tokenomics-posts">
 
-          <p class="card-label">TOKENOMICS ANALYSIS</p>
+          <p class="card-label">TOKENOMICS</p>
 
-<div class="research-proof">
-  <img src="NAMA-GAMBAR" alt="Tokenomics Analysis post">
-</div>
+          <h3>Tokenomics Analysis</h3>
 
-<a class="research-post-link" href="LINK-X">VIEW POST ON X ↗</a>
+          <p>
+            Studying token supply, allocation, distribution,
+            vesting, and other important token mechanics.
+          </p>
 
         </article>
-<div class="research-category-posts">
-  <div id="onchain-posts" class="research-posts"></div>
-  <div id="market-posts" class="research-posts"></div>
-  <div id="tokenomics-posts" class="research-posts"></div>
-</div>
+
       </div>
 
     </div>
@@ -803,55 +802,6 @@
     </p>
 
   </footer>
-<script>
-const researchData = {
-  "overview-posts": [
-    ["PROJECT ANALYSIS", "Post Example 01", "Project overview and breakdown."],
-    ["PROJECT ANALYSIS", "Post Example 02", "Another project overview."]
-  ],
-  "ecosystem-posts": [
-    ["ECOSYSTEM", "Post Example 01", "Ecosystem research and analysis."],
-    ["ECOSYSTEM", "Post Example 02", "Another ecosystem analysis."]
-  ],
-  "fundamentals-posts": [
-    ["FUNDAMENTALS", "Post Example 01", "Project fundamentals breakdown."],
-    ["FUNDAMENTALS", "Post Example 02", "Another fundamentals analysis."]
-  ],
-  "onchain-posts": [
-    ["ON-CHAIN", "Post Example 01", "On-chain activity analysis."],
-    ["ON-CHAIN", "Post Example 02", "Another on-chain analysis."]
-  ],
-  "market-posts": [
-    ["MARKET DATA", "PROS Market Analysis", "Onchain Learning — Day 3."],
-    ["MARKET DATA", "Post Example 02", "Another market research post."]
-  ],
-  "tokenomics-posts": [
-    ["TOKENOMICS", "Pharos Tokenomics Analysis", "Tokenomics breakdown and research."],
-    ["TOKENOMICS", "Post Example 02", "Another tokenomics analysis."]
-  ]
-};
 
-document.querySelectorAll(".research-toggle").forEach(card => {
-  card.addEventListener("click", () => {
-    const target = document.getElementById(card.dataset.target);
-    const category = card.closest(".research-category");
-
-    category.querySelectorAll(".research-posts").forEach(panel => {
-      panel.classList.remove("active");
-    });
-
-    target.innerHTML = researchData[card.dataset.target].map(post => `
-      <article class="research-post-card">
-        <p class="card-label">${post[0]}</p>
-        <h4>${post[1]}</h4>
-        <p>${post[2]}</p>
-        <a href="#">VIEW POST ↗</a>
-      </article>
-    `).join("");
-
-    target.classList.add("active");
-  });
-});
-     </script>
 </body>
-</html>
+  </html>
