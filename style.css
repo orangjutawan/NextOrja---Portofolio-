@@ -642,7 +642,13 @@ footer p {
 .research-post-card p {
   color: var(--muted);
 }
-
+.research-post-card {
+  background: var(--white);
+  border: 2px solid var(--black);
+  padding: 25px;
+  min-height: 180px;
+  box-shadow: 5px 5px 0 var(--green);
+}
 .research-post-card a {
   display: inline-block;
   margin-top: 20px;
@@ -655,4 +661,17 @@ footer p {
   .research-posts {
     grid-template-columns: 1fr;
   }
+}
+.research-category-posts {
+  margin-top: 24px;
+}
+
+.research-posts {
+  display: none;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.research-posts.active {
+  display: grid;
 }
