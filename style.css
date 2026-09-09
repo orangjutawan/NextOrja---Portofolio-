@@ -700,3 +700,28 @@ footer p {
   font-weight: 800;
   font-size: 13px;
 }
+.research-proof {
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+
+.research-proof img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.research-post-link {
+  display: inline-block;
+  margin-top: auto;
+  color: var(--green);
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.research-post-link:hover {
+  text-decoration: underline;
+}
