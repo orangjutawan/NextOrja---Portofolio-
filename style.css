@@ -675,3 +675,28 @@ footer p {
 .research-posts.active {
   display: grid;
 }
+.research-post-card {
+  background: var(--white);
+  border: 2px solid var(--black);
+  padding: 25px;
+  min-height: 180px;
+  box-shadow: 6px 6px 0 var(--green);
+  margin-bottom: 18px;
+}
+
+.research-post-card h4 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.research-post-card p {
+  color: var(--muted);
+}
+
+.research-post-card a {
+  display: inline-block;
+  margin-top: 20px;
+  color: var(--green);
+  font-weight: 800;
+  font-size: 13px;
+}
