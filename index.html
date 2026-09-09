@@ -812,6 +812,55 @@
     </p>
 
   </footer>
+<script>
+const researchData = {
+  "overview-posts": [
+    ["PROJECT ANALYSIS", "Post Example 01", "Project overview and breakdown."],
+    ["PROJECT ANALYSIS", "Post Example 02", "Another project overview."]
+  ],
+  "ecosystem-posts": [
+    ["ECOSYSTEM", "Post Example 01", "Ecosystem research and analysis."],
+    ["ECOSYSTEM", "Post Example 02", "Another ecosystem analysis."]
+  ],
+  "fundamentals-posts": [
+    ["FUNDAMENTALS", "Post Example 01", "Project fundamentals breakdown."],
+    ["FUNDAMENTALS", "Post Example 02", "Another fundamentals analysis."]
+  ],
+  "onchain-posts": [
+    ["ON-CHAIN", "Post Example 01", "On-chain activity analysis."],
+    ["ON-CHAIN", "Post Example 02", "Another on-chain analysis."]
+  ],
+  "market-posts": [
+    ["MARKET DATA", "PROS Market Analysis", "Onchain Learning — Day 3."],
+    ["MARKET DATA", "Post Example 02", "Another market research post."]
+  ],
+  "tokenomics-posts": [
+    ["TOKENOMICS", "Pharos Tokenomics Analysis", "Tokenomics breakdown and research."],
+    ["TOKENOMICS", "Post Example 02", "Another tokenomics analysis."]
+  ]
+};
 
+document.querySelectorAll(".research-toggle").forEach(card => {
+  card.addEventListener("click", () => {
+    const target = document.getElementById(card.dataset.target);
+    const category = card.closest(".research-category");
+
+    category.querySelectorAll(".research-posts").forEach(panel => {
+      panel.classList.remove("active");
+    });
+
+    target.innerHTML = researchData[card.dataset.target].map(post => `
+      <article class="research-post-card">
+        <p class="card-label">${post[0]}</p>
+        <h4>${post[1]}</h4>
+        <p>${post[2]}</p>
+        <a href="#">VIEW POST ↗</a>
+      </article>
+    `).join("");
+
+    target.classList.add("active");
+  });
+});
+     </script>
 </body>
 </html>
