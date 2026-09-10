@@ -538,7 +538,7 @@ footer p {
 .contribution-grid {
   grid-template-columns: repeat(2, 1fr);
 }
-
+}
 @media (max-width: 600px) {
   .hero {
     min-height: auto;
