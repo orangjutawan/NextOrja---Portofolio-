@@ -31,7 +31,7 @@ a {
 
 .section {
     width: min(1100px, calc(100% - 40px));
-    margin: 70px auto;
+    margin: 40px auto;
     padding: 50px;
     background: #ffffff;
 
