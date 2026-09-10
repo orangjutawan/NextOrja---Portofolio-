@@ -172,6 +172,7 @@ a {
     align-items: flex-start;
     gap: 14px;
     font-size: 17px;
+   font-weight: 600;
 }
 
 .dot {
