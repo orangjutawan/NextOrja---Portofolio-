@@ -606,3 +606,14 @@ footer p {
   box-shadow: 4px 4px 0 var(--green);
   margin-top: 18px;
 }
+.research-columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.research-columns .card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
