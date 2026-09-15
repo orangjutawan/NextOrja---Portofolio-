@@ -118,13 +118,13 @@ a {
 }
 
 .about-me h3 {
-    font-size: 14px;
+    font-size: 17px;
     letter-spacing: 2px;
     margin-bottom: 12px;
 }
 
 .about-me p {
-    font-size: 19px;
+    font-size: 20px;
     line-height: 1.7;
 }
 
@@ -331,7 +331,7 @@ a {
 ========================= */
 
 .contact {
-    min-height: 30vh;
+    min-height: 27vh;
     padding: 90px 7%;
 
     background: #16834a;
