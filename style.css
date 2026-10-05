@@ -78,7 +78,7 @@ a {
 ========================= */
 
 .hero {
-    min-height: 40vh;
+    min-height: 43vh;
     padding: 70px 7%;
     background: #16834a;
     color: #ffffff;
@@ -93,8 +93,8 @@ a {
     max-width: 900px;
 }
 .hero-avatar {
-    width: 140px;
-    height: 140px;
+    width: 145px;
+    height: 145px;
     object-fit: cover;
     border-radius: 50%;
     display: block;
