@@ -475,3 +475,9 @@ a {
         align-items: flex-start;
     }
   }
+@media (max-width: 768px) {
+    .hero-avatar {
+        width: 120px;
+        height: 120px;
+    }
+}
